@@ -1,0 +1,89 @@
+        /* Remove the navbar's default margin-bottom and rounded borders */ 
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+          }
+          
+          /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+          .row.content {height: 2100px}
+          
+          /* Set gray background color and 100% height */
+          .sidenav {
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 100%;
+          }
+          
+          /* Set black background color, white text and some padding */
+          footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+          }
+          
+          /* On small screens, set height to 'auto' for sidenav and grid */
+          @media screen and (max-width: 767px) {
+            .sidenav {
+              height: auto;
+              padding: 15px;
+            }
+            .row.content {height:auto;} 
+          }
+  
+          .custom-radio {
+              
+              padding-left: 45px;
+              padding-right: 45px;
+              padding-top: 20px;
+          }
+  
+          #countdown {
+              font-size: 50px;
+              padding-bottom:60px;
+              padding-top: 25px;
+              color: white;
+          }
+  
+          .submit {
+              margin-top: 30px;
+          }
+          
+          .endgame {
+              padding-top: 50px;
+              font-size: 60px;
+          }
+  
+          .explanation {
+              font-size: 20px;
+              color:white;
+          }
+  
+          .title {
+              font-size: 65px;
+              color:white;
+              padding-top: 40px;
+          }
+  
+          .custom-radio {
+              padding-left: 50px;
+              padding-right: 50px;
+              padding-top: 30px;
+              padding-bottom: 30px;
+          }
+  
+          .topbox {
+              background-color:#007bff;
+          }
+  
+          .q1container {
+              padding-top: 60px;
+          }
+  
+          .questions {
+              padding-top: 20px;
+          }
+          
+          .btn-secondary {
+              background-color:#007bff;
+          }
+  
